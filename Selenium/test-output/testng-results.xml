@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96" started-at="2017-11-12T18:30:25Z" finished-at="2017-11-12T18:30:25Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="EditLeads.editLead(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:tests.EditLeads@1975490]" name="editLead" class="tests.EditLeads"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="96" started-at="2017-11-12T18:30:25Z" finished-at="2017-11-12T18:30:25Z">
+      <class name="tests.EditLeads">
+        <test-method status="FAIL" signature="loginApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EditLeads@1975490]" name="loginApp" is-config="true" duration-ms="0" started-at="2017-11-13T00:00:25Z" finished-at="2017-11-13T00:00:25Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Configuration on method loginApp but has not been marked @Optional or defined
+in C:\Users\jyoti-jyoti\AppData\Local\Temp\testng-eclipse--630933538\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Configuration on method loginApp but has not been marked @Optional or defined
+in C:\Users\jyoti-jyoti\AppData\Local\Temp\testng-eclipse--630933538\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="SKIP" signature="editLead(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:tests.EditLeads@1975490]" name="editLead" duration-ms="12" started-at="2017-11-13T00:00:25Z" data-provider="EditLeadData" finished-at="2017-11-13T00:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="SKIP" signature="logOut()[pri:0, instance:tests.EditLeads@1975490]" name="logOut" is-config="true" duration-ms="0" started-at="2017-11-13T00:00:25Z" finished-at="2017-11-13T00:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="SKIP" signature="loginApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EditLeads@1975490]" name="loginApp" is-config="true" duration-ms="0" started-at="2017-11-13T00:00:25Z" finished-at="2017-11-13T00:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="SKIP" signature="editLead(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:tests.EditLeads@1975490]" name="editLead" duration-ms="0" started-at="2017-11-13T00:00:25Z" data-provider="EditLeadData" finished-at="2017-11-13T00:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="SKIP" signature="logOut()[pri:0, instance:tests.EditLeads@1975490]" name="logOut" is-config="true" duration-ms="0" started-at="2017-11-13T00:00:25Z" finished-at="2017-11-13T00:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- tests.EditLeads -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
